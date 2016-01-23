@@ -1,0 +1,118 @@
+/* Bootstrap overrides */
+.row,
+.container-fluid,
+.col-sm-8,
+.col-sm-4,
+.col-xs-12,
+.col-xs-8,
+.col-xs-7,
+.col-xs-4 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	color: #4a4a4a;
+	font-weight: 300;
+	background-color: #4a4a4a;
+}
+
+a {
+	color: #118DC3;
+	text-decoration: none;
+}
+	
+a:hover {
+	text-decoration: underline;
+}
+
+.container-fluid {
+	padding: 30px !important;
+	background-color: #4a4a4a;
+}
+
+	.pageContainer {
+		padding: 30px;
+		background-color: #4a4a4a;
+		max-width: 1000px;
+	}	
+
+	
+	.topNav #nameContainer {
+		text-align: center;
+		min-width: 165px;
+		margin-top: 10px;
+	}
+
+	#nameContainer {
+	}
+		#nameContainer a {
+			text-decoration: none;
+		}
+		#nameContainer a img {
+			width: 130px;
+		}
+		#nameContainer a #name {
+			font-size: 30px;
+		}
+			#name {
+				color: white;
+				font-weight: 100;
+				font-size: 39px;
+				font-family: "Helvetica";
+				margin-top: 15px;
+			}
+
+
+	.topNav #navContainer {
+		text-align: right;
+	}
+	
+	@media (max-width: 768px) {
+		.topNav #navContainer {
+			text-align: center;
+			margin: 30px 0px;
+		}
+	}
+
+	#navContainer {
+		padding: 0px;
+		margin-top: 60px;
+	}
+		#navContainer > li {
+			font-size: 20px;
+			color: #666;
+			/*display: inline-block;*/
+		}
+			#navContainer > li > a {
+				text-decoration: none;
+				color: inherit;
+				display: block;
+				text-shadow: 0px 0px 5px #FFF;
+				letter-spacing: 1px;
+				-webkit-transition: all 0.5s ease-in-out;
+				-moz-transition: all 0.5s ease-in-out;
+				-o-transition: all 0.5s ease-in-out;
+				-ms-transition: all 0.5s ease-in-out;
+				transition: all 0.5s ease-in-out;
+			}
+			#navContainer li a:hover{
+				color: #FF8E18;
+				text-shadow: none;
+			}
+
+
+
+	#socialContainer {
+		vertical-align: middle;
+		margin-top: 15px;
+	}
+
+#footerCopyright {
+	font-size: 12px;
+	font-family: "Helvetica";
+	color:white;
+	margin: 50px auto 0px auto;
+}
+
+
