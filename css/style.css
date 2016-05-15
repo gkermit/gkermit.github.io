@@ -37,12 +37,37 @@ canvas {
 	display: table-cell;
 }
 
+.container-about-photo {
+	position: absolute;
+ 	top: 30%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+.container-about-text {
+	position: absolute;
+ 	top: 30%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	margin-top: 500px;
+}
+
 .weblink-item-resume {
 	position: absolute;
  	top: 50%;
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 50px;
+ 	margin-left: -40px;
+}
+
+.weblink-item-about {
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	margin-top: 50px;
+ 	margin-left: 40px;
 }
 
 #resume-link {
@@ -52,17 +77,24 @@ canvas {
 	font-size: 18px;
 	font-family: "Helvetica";
 	margin-top: 15px;
-	a:link {color: black;}      /* unvisited link */
-       a:visited {color: black;}   /* visited link */
-       a:hover {color: black;}     /* mouse over link */
-       a:active {color: black;} 
 }
 
-#resume-hyperlink {
-		a:link {color: black;}      /* unvisited link */
-       a:visited {color: black;}   /* visited link */
-       a:hover {color: black;}     /* mouse over link */
-       a:active {color: black;}    /* selected link */
+#about-link {
+	text-align: center;
+	color: black;
+	font-weight: 100;
+	font-size: 18px;
+	font-family: "Helvetica";
+	margin-top: 15px;
+}
+
+#about-text {
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-size: 18px;
+	font-family: "Helvetica";
+	margin-top: 15px;
 }
 
 .container-item-social {
