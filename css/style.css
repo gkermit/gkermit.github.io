@@ -115,7 +115,7 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 125px;
- 	margin-left: -70px;
+ 	margin-left: -110px;
 }
 
 .social-item-twitter {
@@ -124,6 +124,16 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 125px;
+ 	margin-left: -37px;
+}
+
+.social-item-git {
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	margin-top: 125px;
+ 	margin-left: 37px;
 }
 
 .social-item-facebook {
@@ -132,7 +142,7 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 125px;
- 	margin-left: 70px;
+ 	margin-left: 110px;
 }
 
 #name {
