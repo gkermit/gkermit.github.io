@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
         <title>gtracy</title>
 	<meta name="description" content="Gregory Tracy's personal website.">
@@ -10,9 +9,10 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body bgcolor="#4a4a4a">
-508 - oops
+	<div class="container-error">
+		<div id="name">Error: 508</div>
+		</p><a href="/.."><p style="text-align:center"> <img src="images/logo.svg" height="80"/></p>
+	</div>
 </body>
-
 </html>
