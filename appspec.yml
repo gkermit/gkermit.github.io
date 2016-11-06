@@ -13,10 +13,14 @@ permissions:
        - file
 hooks:
    BeforeInstall:
-    - location: scripts/installapache.sh
+    - location: scripts/install_dependencies.sh
+      timeout: 300
       runas: root
-    - location: scripts/startapache.sh
+   ApplicationStart:
+    - location: scripts/start_server.sh
+      timeout: 300
       runas: root
-   AfterInstall:
-    - location: scripts/restartapache.sh
+   ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 300
       runas: root
