@@ -189,7 +189,7 @@ canvas {
 	margin-top: 15px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
 	#name {
         	text-align: center;
         	color: white;
