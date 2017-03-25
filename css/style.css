@@ -198,6 +198,10 @@ canvas {
         	font-family: "Helvetica";
         	margin-top: 15px;
 	}
+	
+	.container-item-footer {
+		display: none;
+	}
 }
 
 /* ---- particles.js container ---- */
