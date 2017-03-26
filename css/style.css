@@ -196,7 +196,42 @@ canvas {
         	font-weight: 100;
         	font-size: 28px;
         	font-family: "Helvetica";
-        	margin-top: 15px;
+        	margin-top: 80px;
+	}
+
+	.container-item-logo {
+		position: absolute;
+	 	top: 50%;
+	 	left: 50%;
+	 	transform: translate(-50%, -50%);
+	 	margin-top: -75px;
+	}
+
+	.weblink-item-resume {
+		position: absolute;
+	 	top: 50%;
+	 	left: 50%;
+	 	transform: translate(-50%, -50%);
+	 	margin-top: 65px;
+	 	margin-left: -80px;
+	}
+
+	.weblink-item-about {
+		position: absolute;
+ 		top: 50%;
+ 		left: 50%;
+ 		transform: translate(-50%, -50%);
+	 	margin-top: 65px;
+ 		margin-left: 0px;
+	}
+
+	.weblink-item-projects {
+		position: absolute;
+ 		top: 50%;
+ 		left: 50%;
+ 		transform: translate(-50%, -50%);
+	 	margin-top: 65px;
+ 		margin-left: 80px;
 	}
 	
 	.container-item-footer {
