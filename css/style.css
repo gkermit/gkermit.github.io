@@ -233,6 +233,28 @@ canvas {
 	 	margin-top: 65px;
  		margin-left: 80px;
 	}
+
+	.container-about-photo {
+		display: none;
+	}
+
+	.container-about-text {
+		width: 80%;
+		position: absolute;
+	 	top: 50%;
+	 	left: 50%;
+	 	transform: translate(-50%, -50%);
+	 	margin-top: 25px;
+	}
+
+	#about-text {
+		text-align: center;
+		color: white;
+		font-weight: 100;
+		font-size: 3.5vh;
+		font-family: "Helvetica";
+		margin-top: 15px;
+	}
 	
 	.container-item-footer {
 		display: none;
