@@ -141,15 +141,6 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 125px;
- 	margin-left: -110px;
-}
-
-.social-item-twitter {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 125px;
  	margin-left: -37px;
 }
 
@@ -160,15 +151,6 @@ canvas {
  	transform: translate(-50%, -50%);
  	margin-top: 125px;
  	margin-left: 37px;
-}
-
-.social-item-facebook {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 125px;
- 	margin-left: 110px;
 }
 
 #name {
