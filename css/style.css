@@ -66,7 +66,7 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 50px;
- 	margin-left: -80px;
+ 	margin-left: -45px;
 }
 
 .weblink-item-about {
@@ -75,16 +75,7 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 50px;
- 	margin-left: 0px;
-}
-
-.weblink-item-projects {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 50px;
- 	margin-left: 80px;
+ 	margin-left: 45px;
 }
 
 #resume-link {
@@ -97,15 +88,6 @@ canvas {
 }
 
 #about-link {
-	text-align: center;
-	color: black;
-	font-weight: 100;
-	font-size: 18px;
-	font-family: "Helvetica";
-	margin-top: 15px;
-}
-
-#project-link {
 	text-align: center;
 	color: black;
 	font-weight: 100;
@@ -195,7 +177,7 @@ canvas {
 	 	left: 50%;
 	 	transform: translate(-50%, -50%);
 	 	margin-top: 65px;
-	 	margin-left: -80px;
+	 	margin-left: -40px;
 	}
 
 	.weblink-item-about {
@@ -204,16 +186,7 @@ canvas {
  		left: 50%;
  		transform: translate(-50%, -50%);
 	 	margin-top: 65px;
- 		margin-left: 0px;
-	}
-
-	.weblink-item-projects {
-		position: absolute;
- 		top: 50%;
- 		left: 50%;
- 		transform: translate(-50%, -50%);
-	 	margin-top: 65px;
- 		margin-left: 80px;
+ 		margin-left: 40px;
 	}
 
 	.container-about-photo {
