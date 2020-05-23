@@ -66,7 +66,7 @@ canvas {
  	left: 50%;
  	transform: translate(-50%, -50%);
  	margin-top: 50px;
- 	margin-left: -45px;
+ 	margin-left: -0px;
 }
 
 .weblink-item-about {
@@ -81,40 +81,9 @@ canvas {
 #resume-link {
 	text-align: center;
 	color: black;
-	font-weight: 100;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: "Helvetica";
-	margin-top: 15px;
-}
-
-#about-link {
-	text-align: center;
-	color: black;
-	font-weight: 100;
-	font-size: 18px;
-	font-family: "Helvetica";
-	margin-top: 15px;
-}
-
-#about-text {
-	text-align: center;
-	color: white;
-	font-weight: 100;
-	font-size: 18px;
-	font-family: "Helvetica";
-	margin-top: 15px;
-}
-
-.container-item-social {
-	display: table-cell;
-}
-
-.container-item-footer {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 450px;
+	margin-top: -70px;
 }
 
 .social-item-linkedin {
@@ -122,8 +91,10 @@ canvas {
  	top: 50%;
  	left: 50%;
  	transform: translate(-50%, -50%);
- 	margin-top: 125px;
- 	margin-left: -37px;
+ 	margin-top: 20px;
+ 	margin-left: 0px;
+  font-size: 14px;
+  font-family: "Helvetica";
 }
 
 .social-item-git {
@@ -131,17 +102,19 @@ canvas {
  	top: 50%;
  	left: 50%;
  	transform: translate(-50%, -50%);
- 	margin-top: 125px;
- 	margin-left: 37px;
+ 	margin-top: 55px;
+ 	margin-left: 0px;
+  font-size: 14px;
+  font-family: "Helvetica";
 }
 
 #name {
 	text-align: center;
-	color: white;
+	color: black;
 	font-weight: 100;
-	font-size: 39px;
+	font-size: 20px;
 	font-family: "Helvetica";
-	margin-top: 15px;
+	margin-top: -60px;
 }
 
 #footer {
@@ -151,82 +124,4 @@ canvas {
 	font-size: 10px;
 	font-family: "Helvetica";
 	margin-top: 15px;
-}
-
-@media only screen and (max-width: 1000px) {
-	#name {
-        	text-align: center;
-        	color: white;
-        	font-weight: 100;
-        	font-size: 28px;
-        	font-family: "Helvetica";
-        	margin-top: 80px;
-	}
-
-	.container-item-logo {
-		position: absolute;
-	 	top: 50%;
-	 	left: 50%;
-	 	transform: translate(-50%, -50%);
-	 	margin-top: -75px;
-	}
-
-	.weblink-item-resume {
-		position: absolute;
-	 	top: 50%;
-	 	left: 50%;
-	 	transform: translate(-50%, -50%);
-	 	margin-top: 65px;
-	 	margin-left: -40px;
-	}
-
-	.weblink-item-about {
-		position: absolute;
- 		top: 50%;
- 		left: 50%;
- 		transform: translate(-50%, -50%);
-	 	margin-top: 65px;
- 		margin-left: 40px;
-	}
-
-	.container-about-photo {
-		display: none;
-	}
-
-	.container-about-text {
-		width: 80%;
-		position: absolute;
-	 	top: 50%;
-	 	left: 50%;
-	 	transform: translate(-50%, -50%);
-	 	margin-top: 25px;
-	}
-
-	#about-text {
-		text-align: center;
-		color: white;
-		font-weight: 100;
-		font-size: 3.5vh;
-		font-family: "Helvetica";
-		margin-top: 15px;
-	}
-
-	.container-item-footer {
-		display: none;
-	}
-
-	#particles-js {
-		display: none;
-	}
-}
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: #4a4a4a;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
