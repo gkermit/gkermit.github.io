@@ -1,7 +1,7 @@
 body {
  	margin: 0;
  	display: table;
- 	font:normal 75% Arial, Helvetica, sans-serif;
+ 	font:normal 75% Arial, Helvetica Neue, sans-serif;
 }
 
 body a {
@@ -80,9 +80,9 @@ canvas {
 
 #resume-link {
 	text-align: center;
-	color: black;
-	font-size: 14px;
-	font-family: "Helvetica";
+  color: black;
+	font-size: 16px;
+	font-family: "Helvetica Neue";
 	margin-top: -70px;
 }
 
@@ -91,10 +91,10 @@ canvas {
  	top: 50%;
  	left: 50%;
  	transform: translate(-50%, -50%);
- 	margin-top: 20px;
+ 	margin-top: 21px;
  	margin-left: 0px;
-  font-size: 14px;
-  font-family: "Helvetica";
+  font-size: 16px;
+  font-family: "Helvetica Neue";
 }
 
 .social-item-git {
@@ -104,24 +104,24 @@ canvas {
  	transform: translate(-50%, -50%);
  	margin-top: 55px;
  	margin-left: 0px;
-  font-size: 14px;
-  font-family: "Helvetica";
+  font-size: 16px;
+  font-family: "Helvetica Neue";
 }
 
 #name {
 	text-align: center;
 	color: black;
-	font-weight: 100;
-	font-size: 20px;
-	font-family: "Helvetica";
-	margin-top: -60px;
+	font-weight: 400;
+	font-size: 24px;
+	font-family: "Helvetica Neue";
+	margin-top: -70px;
 }
 
 #footer {
 	text-align: center;
 	color: white;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 10px;
-	font-family: "Helvetica";
+	font-family: "Helvetica Neue";
 	margin-top: 15px;
 }
