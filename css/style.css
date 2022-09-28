@@ -81,7 +81,7 @@ canvas {
 #resume-link {
 	text-align: center;
   color: black;
-	font-size: 16px;
+	font-size: 19px;
 	font-family: "Helvetica Neue";
 	margin-top: -70px;
 }
@@ -93,7 +93,7 @@ canvas {
  	transform: translate(-50%, -50%);
  	margin-top: 21px;
  	margin-left: 0px;
-  font-size: 16px;
+  font-size: 19px;
   font-family: "Helvetica Neue";
 }
 
@@ -104,7 +104,7 @@ canvas {
  	transform: translate(-50%, -50%);
  	margin-top: 55px;
  	margin-left: 0px;
-  font-size: 16px;
+  font-size: 19px;
   font-family: "Helvetica Neue";
 }
 
@@ -112,7 +112,7 @@ canvas {
 	text-align: center;
 	color: black;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 30px;
 	font-family: "Helvetica Neue";
 	margin-top: -70px;
 }
