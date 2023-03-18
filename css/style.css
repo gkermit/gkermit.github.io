@@ -1,127 +1,102 @@
 body {
- 	margin: 0;
- 	display: table;
- 	font:normal 75% Arial, Helvetica Neue, sans-serif;
+    margin: 0;
+    font: normal 75% Arial, Helvetica Neue, sans-serif;
 }
 
 body a {
-	color: black;
+    color: black;
+}
+
+body {
+    /*background-image: url('../images/gradient-3.jpg');*/
+	background-color: #4154d6;
 }
 
 canvas {
- 	display: block;
- 	vertical-align: bottom;
+    display: block;
+    vertical-align: bottom;
 }
 
 .container {
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.container-error {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: -100px;
+.name-text,
+.weblink-text {
+    color: white;
+    text-decoration: none;
 }
 
 .container-item-logo {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: -135px;
+    margin-top: -135px;
 }
 
 .container-item-name {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
 }
 
 .container-item-weblinks {
-	display: table-cell;
 }
 
 .container-about-photo {
-	position: absolute;
- 	top: 30%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
+    top: 30%;
 }
 
 .container-about-text {
-	position: absolute;
- 	top: 15%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 500px;
+    top: 15%;
+    margin-top: 500px;
 }
 
 .weblink-item-resume {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 50px;
- 	margin-left: -0px;
+    margin-top: 50px;
 }
 
 .weblink-item-about {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 50px;
- 	margin-left: 45px;
+    margin-top: 50px;
+    margin-left: 45px;
 }
 
 #resume-link {
-	text-align: center;
-  color: black;
-	font-size: 19px;
-	font-family: "Helvetica Neue";
-	margin-top: -70px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: "Helvetica Neue";
+    margin-top: -60px;
 }
 
 .social-item-linkedin {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 21px;
- 	margin-left: 0px;
-  font-size: 19px;
-  font-family: "Helvetica Neue";
+	text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: "Helvetica Neue";
 }
 
 .social-item-git {
-	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	margin-top: 55px;
- 	margin-left: 0px;
-  font-size: 19px;
-  font-family: "Helvetica Neue";
+	text-align: center;
+    color: white;
+    margin-top: 21px;
+    font-size: 19px;
+    font-family: "Helvetica Neue";
 }
 
 #name {
-	text-align: center;
-	color: black;
-	font-weight: 400;
-	font-size: 30px;
-	font-family: "Helvetica Neue";
-	margin-top: -70px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: "Helvetica Neue";
+    margin-top: -70px;
 }
 
 #footer {
-	text-align: center;
-	color: white;
-	font-weight: 400;
-	font-size: 10px;
-	font-family: "Helvetica Neue";
-	margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    font-family: "Helvetica Neue";
+    margin-top: 15px;
 }
