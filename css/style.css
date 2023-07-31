@@ -4,11 +4,10 @@ body {
 }
 
 body a {
-    color: black;
+    background-color: #4154d6;
 }
 
 body {
-    /*background-image: url('../images/gradient-3.jpg');*/
 	background-color: #4154d6;
 }
 
