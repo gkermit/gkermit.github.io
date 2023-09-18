@@ -1,14 +1,21 @@
+@font-face {
+    font-family: "Styrene B Regular Regular";
+    src: url("https://db.onlinewebfonts.com/t/5d86f2e8ccc2811b9392aa03b7ce4a63.eot");
+    src: url("https://db.onlinewebfonts.com/t/5d86f2e8ccc2811b9392aa03b7ce4a63.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5d86f2e8ccc2811b9392aa03b7ce4a63.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5d86f2e8ccc2811b9392aa03b7ce4a63.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5d86f2e8ccc2811b9392aa03b7ce4a63.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5d86f2e8ccc2811b9392aa03b7ce4a63.svg#Styrene B Regular Regular")format("svg");
+}
+
 body {
     margin: 0;
-    font: normal 75% Arial, Helvetica Neue, sans-serif;
+    font: normal "Styrene B Regular Regular", Arial, "Helvetica Neue", sans-serif;
+    background-color: #4154d6;
 }
 
 body a {
     background-color: #4154d6;
-}
-
-body {
-	background-color: #4154d6;
 }
 
 canvas {
@@ -61,8 +68,8 @@ canvas {
 #resume-link {
     text-align: center;
     color: white;
-    font-size: 19px;
-    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-family: "Styrene B Regular Regular", "Helvetica Neue";
     margin-top: -60px;
 }
 
@@ -70,32 +77,30 @@ canvas {
 	text-align: center;
     color: white;
     margin-top: 20px;
-    font-size: 19px;
-    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-family: "Styrene B Regular Regular", "Helvetica Neue";
 }
 
 .social-item-git {
 	text-align: center;
     color: white;
     margin-top: 21px;
-    font-size: 19px;
-    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-family: "Styrene B Regular Regular", "Helvetica Neue";
 }
 
 #name {
     text-align: center;
     color: white;
-    font-weight: 400;
     font-size: 30px;
-    font-family: "Helvetica Neue";
+    font-family: "Styrene B Regular Regular", "Helvetica Neue";
     margin-top: -70px;
 }
 
 #footer {
     text-align: center;
     color: white;
-    font-weight: 400;
     font-size: 10px;
-    font-family: "Helvetica Neue";
+    font-family: "Styrene B Regular Regular", "Helvetica Neue";
     margin-top: 15px;
 }
